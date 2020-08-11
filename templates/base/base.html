@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware Store</title>
+  <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+</head>
+
+<body>
+  <h1>Welcome .. </h1>
+
+  <p>Current server time is {{ hour }} </p>
+
+  <img src="{% static 'img/virtualbox.svg' %}" alt="">
+
+  <p id="data"></p>
+
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>

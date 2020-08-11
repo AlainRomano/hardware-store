@@ -1,0 +1,1 @@
+document.getElementById('data').textContent = 'Since JAVASCRIPT'
